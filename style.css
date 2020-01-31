@@ -1,0 +1,68 @@
+.box1 {
+  width: 300px;
+  border: 1px solid #99ff99;
+  box-shadow: 5px 5px 10px #99ff99;
+  background-color:  #ccffcc;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 15px;
+}
+.box2 {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #e6005c;
+  box-shadow: 5px 5px 10px #e6005c;
+  background-color:  red;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 15px;
+}
+.box1 ul {
+  font-family: Verdana;
+  font-size: 18px;
+  color: #004d00;
+  list-style-type: circle;
+}
+.box1 ol {
+  font-family: Verdana;
+  font-size: 18px;
+  color: #004d00;
+  list-style-type: upper-roman;
+}
+.box1 ul li:nth-child(3), ul li:nth-child(4) {
+  color: red;
+}
+.box1 ol li:nth-child(2), ol li:nth-child(4) {
+  font-size: 24px;
+}
+.box1 ol li:hover, .box1 ul li:hover {
+  color:  #0000cc;
+  font-style: bold;
+  font-size: 27px;
+  transition: width 2s, height 2s, transform 2s;
+  text-transform: uppercase;
+}
+.box2:nth-child(4) {
+  color: white;
+}
+.box2 p:nth-child(1) {
+  font-style: italic;
+}
+.btn {
+  background-color: #66ccff;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 12px;
+}
+.btn:hover {
+  background-color: blue;
+}
+.btn:active {
+  border-radius: 0px;
+  width: 200px;
+  height: 150px;
+}
